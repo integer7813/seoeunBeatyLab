@@ -1,0 +1,32 @@
+.greeting-section {
+    background-color: #fbeff3;
+    padding: 100px 20px;
+  }
+  
+  .greeting-container {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .greeting-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #ff69b4;
+    font-weight: bold;
+  }
+  
+  .greeting-text {
+    font-size: 1.1rem;
+    line-height: 2;
+    color: #333;
+    margin-bottom: 50px;
+  }
+  
+  .greeting-signature p {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #888;
+  }
+  

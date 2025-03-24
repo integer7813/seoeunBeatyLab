@@ -1,0 +1,50 @@
+.services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 20px;
+}
+
+.service-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+}
+
+.service-card {
+  width: 100%;
+  max-width: 800px;       /* ✅ 전체 화면의 절반~60% */
+  min-height: 500px;      /* ✅ 시원하게 길이 확보 */
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  padding: 32px;
+  text-align: center;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.service-card:hover {
+  transform: scale(1.02);
+}
+
+.service-card img {
+  width: 100%;
+  max-height: 600px;         /* 원하는 최대 높이 */
+  object-fit: contain;       /* ✅ 전체가 잘리지 않고 보이게! */
+  object-position: center;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  background-color: #f8f8f8; /* 배경색 깔면 여백 생겨도 자연스러움 */
+}
+
+
+.service-card p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+}

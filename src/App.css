@@ -1,0 +1,57 @@
+/* 전체 페이지 기본 설정 */
+body {
+    font-size: 20px;                         /* ✔️ 글자 크게 */
+    line-height: 1.8;                        /* ✔️ 여유로운 줄 간격 */
+    font-family: 'Noto Serif KR', serif;    /* ✔️ 우아한 명조계열 서체 */
+    color: #222;                             /* ✔️ 차분한 글자색 */
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /* 제목 스타일 */
+  h1, h2, h3 {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 0.8em;
+    color: #111;
+  }
+  
+  h1 {
+    font-size: 2.5rem; /* 약 40px */
+  }
+  
+  h2 {
+    font-size: 2rem;   /* 약 32px */
+  }
+  
+  h3 {
+    font-size: 1.6rem; /* 약 26px */
+  }
+  
+  /* 버튼 스타일 (예: 예약 버튼) */
+  button,
+  .reserve-button,
+  .sns-btn,
+  .call-link {
+    font-size: 1.1rem;     /* ✔️ 버튼 텍스트도 시원하게 */
+    font-weight: 600;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-family: 'Noto Serif KR', serif;
+  }
+  
+  /* 링크 꾸미기 */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* 강조 텍스트 */
+  em {
+    font-style: italic;
+    color: #555;
+  }
+  
